@@ -10,7 +10,7 @@ import xgboost as xgb
 
 from streamlit_option_menu import option_menu
 
-stock_model_in=pickle.load(open('C:/Users/ssss/Desktop/Data Science/Deployment/Stock_Data.sav','rb'))
+stock_model_in=pickle.load(open('Stock_Data.sav','rb'))
 stock_model=pickle.load(stock_model_in)
 
 def predict_ltp(VWAP,Delta):
